@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39A8BF62-4154-4AD7-AB02-31DC823F9DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A4FAD9D-F057-4FF6-BB5D-0F653E6E23C6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebPoliklinika2", "src\WebPoliklinika2\WebPoliklinika2.xproj", "{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3C3E3E5-AAB6-491C-AF9B-1E7E98A46ED5} = {39A8BF62-4154-4AD7-AB02-31DC823F9DBB}
+	EndGlobalSection
+EndGlobal
