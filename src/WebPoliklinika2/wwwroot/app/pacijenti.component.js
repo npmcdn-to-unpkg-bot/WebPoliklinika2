@@ -1,4 +1,4 @@
-// app.components.ts
+// pacijenti.components.ts
 System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
@@ -12,27 +12,27 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var AppComponent;
+    var PacijentiComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            AppComponent = (function () {
-                function AppComponent() {
+            PacijentiComponent = (function () {
+                function PacijentiComponent() {
                 }
-                AppComponent = __decorate([
+                PacijentiComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
-                        template: '<h1>Getting my first Angular app working</h1>'
+                        selector: 'pacijenti-app',
+                        template: '<h1>Lista pacijenata</h1>'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppComponent);
-                return AppComponent;
+                ], PacijentiComponent);
+                return PacijentiComponent;
             }());
-            exports_1("AppComponent", AppComponent);
+            exports_1("PacijentiComponent", PacijentiComponent);
         }
     }
 });
-//# sourceMappingURL=app.components.js.map
+//# sourceMappingURL=pacijenti.component.js.map
