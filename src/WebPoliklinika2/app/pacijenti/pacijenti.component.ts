@@ -1,8 +1,8 @@
-﻿// pacijenti.components.ts
+﻿import { Component } from '@angular/core';
 
-import { Component } from '@angular/core';
 @Component({
     selector: 'pacijenti-app',
-    template: ('<div>test</div>')
+    template: '<h1>Lista pacijenata</h1>'
 })
+
 export class PacijentiComponent { }

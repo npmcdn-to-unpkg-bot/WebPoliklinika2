@@ -1,9 +1,10 @@
 ﻿// main.ts
 
 /// <reference path="../typings/index.d.ts" />
-import { bootstrap }    from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app.component';
-import { PacijentiComponent } from './pacijenti/pacijenti.component';
+import { platformBrowserDynamic  }    from '@angular/platform-browser-dynamic';
 
-bootstrap(AppComponent);
-bootstrap(PacijentiComponent);
+import { AppModule } from './app.module';
+import { PacijentiModule } from './pacijenti/pacijenti.module';
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(PacijentiModule);

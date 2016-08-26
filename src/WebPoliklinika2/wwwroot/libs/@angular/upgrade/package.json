@@ -1,19 +1,19 @@
 {
   "_args": [
     [
-      "@angular/upgrade@2.0.0-rc.4",
-      "d:\\user\\documents\\visual studio 2015\\Projects\\WebPoliklinika2\\src\\WebPoliklinika2"
+      "@angular/upgrade@2.0.0-rc.5",
+      "D:\\User\\Documents\\Visual Studio 2015\\Projects\\WebPoliklinika2\\src\\WebPoliklinika2"
     ]
   ],
-  "_cnpm_publish_time": 1467308900588,
-  "_from": "@angular/upgrade@2.0.0-rc.4",
-  "_id": "@angular/upgrade@2.0.0-rc.4",
+  "_cnpm_publish_time": 1470759665030,
+  "_from": "@angular/upgrade@2.0.0-rc.5",
+  "_id": "@angular/upgrade@2.0.0-rc.5",
   "_inCache": true,
   "_location": "/@angular/upgrade",
   "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
-    "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/upgrade-2.0.0-rc.4.tgz_1467308898915_0.6902121875900775"
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/upgrade-2.0.0-rc.5.tgz_1470759663265_0.1727035162039101"
   },
   "_npmUser": {
     "email": "angular-core+npm@google.com",
@@ -23,20 +23,20 @@
   "_phantomChildren": {},
   "_requested": {
     "name": "@angular/upgrade",
-    "raw": "@angular/upgrade@2.0.0-rc.4",
-    "rawSpec": "2.0.0-rc.4",
+    "raw": "@angular/upgrade@2.0.0-rc.5",
+    "rawSpec": "2.0.0-rc.5",
     "scope": "@angular",
-    "spec": "2.0.0-rc.4",
+    "spec": "2.0.0-rc.5",
     "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://r.cnpmjs.org/@angular/upgrade/download/@angular/upgrade-2.0.0-rc.4.tgz",
-  "_shasum": "aa7d56b1c78fca9c0165acf6952b26d0cda81999",
+  "_resolved": "http://r.cnpmjs.org/@angular/upgrade/download/@angular/upgrade-2.0.0-rc.5.tgz",
+  "_shasum": "e089a009f728bbe22303b633c3028a6f06cc1ae3",
   "_shrinkwrap": null,
-  "_spec": "@angular/upgrade@2.0.0-rc.4",
-  "_where": "d:\\user\\documents\\visual studio 2015\\Projects\\WebPoliklinika2\\src\\WebPoliklinika2",
+  "_spec": "@angular/upgrade@2.0.0-rc.5",
+  "_where": "D:\\User\\Documents\\Visual Studio 2015\\Projects\\WebPoliklinika2\\src\\WebPoliklinika2",
   "author": {
     "name": "angular"
   },
@@ -49,9 +49,9 @@
   "directories": {},
   "dist": {
     "noattachment": false,
-    "shasum": "aa7d56b1c78fca9c0165acf6952b26d0cda81999",
-    "size": 85538,
-    "tarball": "http://r.cnpmjs.org/@angular/upgrade/download/@angular/upgrade-2.0.0-rc.4.tgz"
+    "shasum": "e089a009f728bbe22303b633c3028a6f06cc1ae3",
+    "size": 90170,
+    "tarball": "http://r.cnpmjs.org/@angular/upgrade/download/@angular/upgrade-2.0.0-rc.5.tgz"
   },
   "homepage": "https://github.com/angular/angular#readme",
   "installable": true,
@@ -67,16 +67,16 @@
   "name": "@angular/upgrade",
   "optionalDependencies": {},
   "peerDependencies": {
-    "@angular/compiler": "^2.0.0-rc.4",
-    "@angular/core": "^2.0.0-rc.4",
-    "@angular/platform-browser": "^2.0.0-rc.4",
-    "@angular/platform-browser-dynamic": "^2.0.0-rc.4"
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.5"
   },
-  "publish_time": 1467308900588,
+  "publish_time": 1470759665030,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/angular/angular.git"
   },
   "scripts": {},
-  "version": "2.0.0-rc.4"
+  "version": "2.0.0-rc.5"
 }
