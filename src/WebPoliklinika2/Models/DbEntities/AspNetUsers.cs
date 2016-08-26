@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace WebPoliklinika2.Models.DbEntities
 {
-    public partial class AspNetUsers : IdentityUser
+    public partial class AspNetUsers
     {
         public AspNetUsers()
         {
