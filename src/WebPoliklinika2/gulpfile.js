@@ -20,7 +20,9 @@ gulp.task("scriptsNStyles", () => {
             'rxjs/**',
             'zone.js/dist/**',
             '@angular/**',
-            'jquery/dist/jquery.*js'
+            'bootstrap/**',
+            'jquery/**',
+            'bootswatch/**'
     ], {
         cwd: "node_modules/**"
     })

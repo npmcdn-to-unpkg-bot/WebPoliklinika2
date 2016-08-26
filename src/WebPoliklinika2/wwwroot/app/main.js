@@ -1,5 +1,5 @@
 // main.ts
-System.register(['@angular/platform-browser-dynamic', './app.component', './pacijenti.component'], function(exports_1, context_1) {
+System.register(['@angular/platform-browser-dynamic', './app.component', './pacijenti/pacijenti.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var platform_browser_dynamic_1, app_component_1, pacijenti_component_1;
@@ -20,4 +20,3 @@ System.register(['@angular/platform-browser-dynamic', './app.component', './paci
         }
     }
 });
-//# sourceMappingURL=main.js.map
