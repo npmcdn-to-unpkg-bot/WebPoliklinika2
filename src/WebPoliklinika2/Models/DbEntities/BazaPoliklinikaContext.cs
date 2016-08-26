@@ -7,6 +7,7 @@ namespace WebPoliklinika2.Models.DbEntities
     public partial class BazaPoliklinikaContext : DbContext
     {
         public BazaPoliklinikaContext(DbContextOptions<BazaPoliklinikaContext> options) : base(options) { }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<AspNetRoleClaims>(entity =>
@@ -232,7 +233,6 @@ namespace WebPoliklinika2.Models.DbEntities
                 entity.Property(e => e.Opis).HasMaxLength(255);
             });
         }
-    
 
         public virtual DbSet<AspNetRoleClaims> AspNetRoleClaims { get; set; }
         public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }

@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using System.Net.Http;
 using System.Net;
 
-
 namespace WebPoliklinika2.Controllers.Api
 {
     [Route("api/Pacijent")]
@@ -205,7 +204,7 @@ namespace WebPoliklinika2.Controllers.Api
                     };
                 }
             }
-
+           
 
             return result;
         }

@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using WebPoliklinika2.Models.DbEntities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using WebPoliklinika2.Models.DbEntities;
 
 namespace WebPoliklinika2
 {
@@ -35,10 +35,10 @@ namespace WebPoliklinika2
             services.AddDbContext<BazaPoliklinikaContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("AzureConnection")));
 
-            services.AddIdentity<AspNetUsers, IdentityRole>()
+            /*services.AddIdentity<AspNetUsers, IdentityRole>()
                 .AddEntityFrameworkStores<BazaPoliklinikaContext>()
                 .AddDefaultTokenProviders();
-
+                */
             services.AddMvc();
         }
 
@@ -61,7 +61,7 @@ namespace WebPoliklinika2
 
             app.UseStaticFiles();
 
-            app.UseIdentity();
+            //app.UseIdentity();
 
             app.UseMvc(routes =>
             {
