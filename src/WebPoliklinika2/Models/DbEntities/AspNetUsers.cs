@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 
 namespace WebPoliklinika2.Models.DbEntities
 {
-    public partial class AspNetUsers
+    public partial class AspNetUsers : IdentityUser
     {
         public AspNetUsers()
         {
