@@ -13,10 +13,11 @@
     <!-- 2. Configure SystemJS -->
     <script src="~/systemjs.config.js"></script>
     <script>
-    System.import('app').catch(function(err){ console.error(err); });
+        System.import('app').catch(function (err) { console.error(err); });
     </script>
 }
 
-<div>
-    <pacijenti-app>Loading...</pacijenti-app>
-</div>
+
+<pacijenti-app>
+    <div class="loading">Loading...</div>
+</pacijenti-app>
