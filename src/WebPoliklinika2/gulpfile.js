@@ -1,4 +1,5 @@
-﻿// gulpfile.js
+/// <binding BeforeBuild='ts' />
+// gulpfile.js
 
 var ts = require('gulp-typescript');
 var gulp = require('gulp');

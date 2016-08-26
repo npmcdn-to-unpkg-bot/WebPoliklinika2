@@ -2,5 +2,6 @@
   font: 250% Arial, Helvetica, sans-serif;
   color: #336699; }
 
-body {
-  margin: 2em; }
+.bodycontainer{
+    margin: 2em; 
+}
