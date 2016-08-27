@@ -1,10 +1,7 @@
-﻿// main.ts
+﻿import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-/// <reference path="../typings/index.d.ts" />
-import { platformBrowserDynamic  }    from '@angular/platform-browser-dynamic';
+import { PacijentModule } from './pacijent/pacijent.module';
 
-import { AppModule } from './app.module';
-import { PacijentiModule } from './pacijenti/pacijenti.module';
-
-platformBrowserDynamic().bootstrapModule(AppModule);
-platformBrowserDynamic().bootstrapModule(PacijentiModule);
+platformBrowserDynamic().bootstrapModule(PacijentModule)
+    .then(success => console.log(`Bootstrap success`))
+    .catch(error => console.log(error));

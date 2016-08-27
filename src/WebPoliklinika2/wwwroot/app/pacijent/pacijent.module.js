@@ -1,4 +1,4 @@
-System.register(['@angular/core', '@angular/platform-browser', '@angular/forms', './app.component'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/platform-browser', './pacijent.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,8 +10,8 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, platform_browser_1, forms_1, app_component_1;
-    var AppModule;
+    var core_1, platform_browser_1, pacijent_component_1;
+    var PacijentModule;
     return {
         setters:[
             function (core_1_1) {
@@ -20,32 +20,24 @@ System.register(['@angular/core', '@angular/platform-browser', '@angular/forms',
             function (platform_browser_1_1) {
                 platform_browser_1 = platform_browser_1_1;
             },
-            function (forms_1_1) {
-                forms_1 = forms_1_1;
-            },
-            function (app_component_1_1) {
-                app_component_1 = app_component_1_1;
+            function (pacijent_component_1_1) {
+                pacijent_component_1 = pacijent_component_1_1;
             }],
         execute: function() {
-            AppModule = (function () {
-                function AppModule() {
+            PacijentModule = (function () {
+                function PacijentModule() {
                 }
-                AppModule = __decorate([
+                PacijentModule = __decorate([
                     core_1.NgModule({
-                        imports: [
-                            platform_browser_1.BrowserModule,
-                            forms_1.FormsModule
-                        ],
-                        declarations: [
-                            app_component_1.AppComponent
-                        ],
-                        bootstrap: [app_component_1.AppComponent]
+                        imports: [platform_browser_1.BrowserModule],
+                        declarations: [pacijent_component_1.PacijentComponent],
+                        bootstrap: [pacijent_component_1.PacijentComponent]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], AppModule);
-                return AppModule;
+                ], PacijentModule);
+                return PacijentModule;
             }());
-            exports_1("AppModule", AppModule);
+            exports_1("PacijentModule", PacijentModule);
         }
     }
 });
