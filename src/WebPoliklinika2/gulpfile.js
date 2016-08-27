@@ -22,7 +22,8 @@ gulp.task("scriptsNStyles", () => {
             '@angular/**',
             'bootstrap/**',
             'jquery/**',
-            'bootswatch/**'
+            'bootswatch/**',
+            'angular2-in-memory-web-api/**'
     ], {
         cwd: "node_modules/**"
     })
